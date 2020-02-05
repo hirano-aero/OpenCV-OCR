@@ -56,8 +56,5 @@ cv2.waitKey(100)
 res = tool.image_to_string(cv2pil(dst),
                            lang="eng",
                            builder=pyocr.builders.WordBoxBuilder(tesseract_layout=6))
-"""
-out = cv2.imread(imagefile)
-for d in res:
-    print(d.content)
-    print(d.p
+
+cv2.destroyAllWindows()

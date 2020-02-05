@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+numpy = "*"
+pillow = "*"
+opencv-python = {path = "C:/Users/kosuke_hirano/Downloads/opencv_python-4.1.2+contrib-cp38-cp38-win_amd64.whl"}
+pyocr = "*"
+flake8 = "*"
+pylint = "*"
+mypy = "*"
+
+[requires]
+python_version = "3.8"
